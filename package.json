@@ -1,0 +1,26 @@
+{
+    "name": "nodeskull",
+    "version": "0.1",
+    "description": "API for mp3 skull",
+    "author": "kTzAR ktzar@github",
+    "license": "MIT",
+    "keywords": [
+        "parser",
+        "mp3",
+        "mp3skull"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ktzar/nodeskull.git"
+    },
+    "main": "./index.js",
+    "engines": {
+        "node": ">= 0.6"
+    },
+    "dependencies": {
+        "cheerio": "~0.19.0"
+    },
+    "devDependencies": {
+    },
+    "scripts": {}
+}
