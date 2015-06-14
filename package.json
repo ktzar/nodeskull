@@ -1,6 +1,6 @@
 {
     "name": "nodeskull",
-    "version": "0.1",
+    "version": "0.1.0",
     "description": "API for mp3 skull",
     "author": "kTzAR ktzar@github",
     "license": "MIT",
@@ -18,9 +18,10 @@
         "node": ">= 0.6"
     },
     "dependencies": {
-        "cheerio": "~0.19.0"
+        "cheerio": "~0.19.0",
+        "http-request": "0.7.0",
+        "q": "~1.0 "
     },
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "scripts": {}
 }
