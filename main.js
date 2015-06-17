@@ -22,6 +22,7 @@ rl.on('line', function (line) {
         nodeskull.search(line, function (link) {
             if (!link) {
                 console.log("Not found\t".red + line);
+                limiter.leave();
                 return;
             }
             console.log("Downloading\t".yellow + line);
