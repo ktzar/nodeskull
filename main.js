@@ -30,6 +30,8 @@ rl.on('line', function (line) {
                 limiter.leave();
                 if (!err) {
                     console.log("Downloaded\t".green + line);
+                } else {
+                    console.log("Error on\t".red + line);
                 }
             });
         });
